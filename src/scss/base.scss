@@ -1,0 +1,56 @@
+body {
+    font-size: 13px;
+    letter-spacing: normal;
+}
+
+button {
+    position: relative;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #12a7b8 0%, #12a7b8 51%, #12a7b8 100%);
+    background-size: 300% 100%;
+    box-shadow: 0 4px 10px 0 rgba(#000, 0.45);
+    color: #fff;
+    letter-spacing: .02em;
+    transition: all .4s ease-in-out;
+    &:hover, &:focus {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+}
+
+input {
+    padding: 5px 30px;
+    border: none;
+    border-bottom: 1px solid #12a7b8;
+}
+
+.buttons-hld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+// WEEK COMPONENT
+.week-hld {
+    display: flex;
+    align-items: center;
+}
+
+.day {
+    margin: 0 10px 10px;
+    .addItem {
+        // position: absolute;
+        // top: 10px;
+    
+    }
+}
